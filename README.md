@@ -18,8 +18,7 @@ Resume.io downloader run on your local for free.
     ```
     docker compose up --build
     ```
-    frontend service will running on http://localhost:4173
-    backend service will running on http://localhost:8080
+    frontend service will running on http://localhost:4173 and backend service will running on http://localhost:8080
 
 #### Screenshot
 ![alt text](image.png)
