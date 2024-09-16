@@ -24,7 +24,7 @@ Resume.io downloader run on your local for free.
 - Login to resume.io
 - Open https://resume.io/api/app/resumes
 - Copy rendering token
-    ![alt text](image-2.png)
+    ![alt text](image-1.png)
 
 #### Screenshot
 ![alt text](image.png)
