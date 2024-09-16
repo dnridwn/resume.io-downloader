@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 	"net/http"
+	"os"
 	resumeio "resume-downloader/services"
 	"time"
 
@@ -47,7 +48,10 @@ func main() {
 		ctx.Data(http.StatusOK, "application/pdf", pdfBytes)
 	})
 
-	if err := r.Run(":8080"); err != nil {
+	port := os.Getenv("APP_PORT")
+	if err := r.Run(":" + port); err != nil {
 		log.Fatal(err)
+	} else {
+		log.Printf("Server is running on port %s", port)
 	}
 }
