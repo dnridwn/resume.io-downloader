@@ -17,7 +17,7 @@
         isLoading.value = true;
 
         axios({
-            url: 'http://localhost:8080/generate',
+            url: import.meta.env.VITE_APP_API_URL + '/generate',
             method: 'GET',
             responseType: 'blob',
             params: {

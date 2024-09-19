@@ -1,5 +1,5 @@
 <script setup>
-import GenerationForm from '../components/GenerationForm.vue'
+    import GenerationForm from '../components/GenerationForm.vue'
 </script>
 
 <template>
